@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { allPosts } from "contentlayer/generated";
 import { CONFIG } from "@/blog.config";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 export const alt = "Blog Post";
 export const size = {
